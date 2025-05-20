@@ -1,0 +1,182 @@
+body {
+      font-family: Fredoka, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+      background-color: #f0f0f0;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
+
+    #container-2 {
+      height: 380px;
+      width: 350px;
+      border-radius: 18px;
+      display: inline-block;
+      margin-left: 3px;
+      margin-top: 8px;
+      background: 66eb57a5ac6daff0b4440a30ff78ea90.jpg;
+      border: 5px solid #90E0EF;
+      
+       }
+       
+       .header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+      gap: 15px;
+    }
+
+    .profile-pic {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: 3px dashed #90E0EF;
+      background-image: url('profile.jpg');
+      background-size: cover;
+      background-position: center;
+      margin-left: 5px;
+      
+    }
+
+    .title {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background: #90E0EF;
+      border-radius: 20px;
+      padding: 10px 20px;
+      font-size: 11px;
+      font-weight: bold;
+      font-family:Fredoka;
+      color: white;
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #fff,
+                   0 0 20px #0ff,
+                   0 0 30px #0ff,
+                   0 0 40px #0ff,
+                   0 0 50px #0ff,
+                   0 0 60px #0ff;
+    }
+
+    .months {
+      margin-top: 20px;
+      font-size: 24px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #fff,
+                   0 0 20px #0ff,
+                   0 0 30px #0ff,
+                   0 0 40px #0ff,
+                   0 0 50px #0ff,
+                   0 0 60px #0ff;
+    }
+
+    .countdown {
+      margin-top: 10px;
+      font-size: 36px;
+      font-weight: bold;
+      color: white;
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #fff,
+                   0 0 20px #0ff,
+                   0 0 30px #0ff,
+                   0 0 40px #0ff,
+                   0 0 50px #0ff,
+                   0 0 60px #0ff;
+    }
+
+    .labels {
+      font-size: 16px;
+      margin-top: 5px;
+      display: flex;
+      justify-content: center;
+      gap: 38px;
+      color: white;
+      font-weight: bold;
+      margin-left: 10px;
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #fff,
+                   0 0 20px #0ff,
+                   0 0 30px #0ff,
+                   0 0 40px #0ff,
+                   0 0 50px #0ff,
+                   0 0 60px #0ff;
+    }
+
+    .buttons {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      
+    }
+
+    .buttons a {
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      background: #90E0EF;
+      color: white;
+      padding: 12px 18px;
+      border-radius: 10px;
+      text-decoration: none;
+      font-weight: bold;
+      text-shadow: 0 0 5px #fff,
+                   0 0 10px #fff,
+                   0 0 20px #0ff,
+                   0 0 30px #0ff,
+                   0 0 40px #0ff,
+                   0 0 50px #0ff,
+                   0 0 60px #0ff;
+    }
+
+    .buttons a:hover {
+      -webkit-tap-highlight-color: transparent;
+       background-color: #61A5C2;
+       transform: scale(1.1);
+         }
+         
+     .buttons a:active {
+       background-color: #61A5C2;
+       transform: scale(0.95);
+     }
+    
+    .top-box {
+  width: 90%;
+  max-width: 500px;
+  background-color: #90E0EF;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  margin: 10px auto 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  position: relative;
+  text-shadow: 0 0 5px #fff,
+                   0 0 10px #fff,
+                   0 0 20px #0ff,
+                   0 0 30px #0ff,
+                   0 0 40px #0ff,
+                   0 0 50px #0ff,
+                   0 0 60px #0ff;
+}
+
+.top-box span {
+  font-size: 16px;
+}
+
+.close-btn {
+  background-color: white;
+  color: #90E0EF;
+  border: none;
+  border-radius: 6px;
+  width: 24px;
+  height: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
